@@ -1,0 +1,1257 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+  <meta charset="UTF-8"> <!-- Certifica que a codificação está em UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  
+  <!-- Incluindo Material Symbols Outlined -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="css/all.min.css">
+<script src="js/player.js" async=""></script><script src="js/player_8.js" async=""></script><script src="js/player_4.js" async=""></script><script src="js/player_2.js" async=""></script><script src="js/player_1.js" async=""></script><script src="js/player_5.js" async=""></script><script src="js/player_6.js" async=""></script><script src="js/player_3.js" async=""></script><script src="js/player_7.js" async=""></script><script src="js/player_9.js" async=""></script></head>
+<body>
+  <audio id="meuAudio">
+    <source src="media/dinheiro.mp3" type="audio/mp3">
+  </audio>
+  
+
+
+  
+  <!--------------------- Pagina de login" --------------------->
+  
+  
+  <div id="login" style="display: block;">
+        
+    <div style="padding-top:20%;"></div> 
+
+        <div class="outer-box-login">
+          <div class="white-box-login"><br>
+            <img src="images/Clona-n-o-pai.png" style="width:50%; margin: 0 auto; display: flex; padding: -40px; ">
+            <p class="popup-textL" style="text-align: center; color: #00ffff; padding: -30%; font-weight: bold; font-size: 20px;"><b>Chegamos!
+em parceria<br> Oficial com Tiktok.</b>
+</p>
+            <p class="popup-textL" style="text-align: center; color: white; padding: -20%; font-weight: bold; font-size: 15px;"> Avalie nossos Efeitos CapCut<br> e lucre R$500 reais ainda hoje<br> vamos nessa?
+            </p><p class="popup-textL" style="text-align: center; color: white; font-size: 15px;"><b>Insira</b> seu <b>nome</b> para acessar!</p>
+            
+            <input type="text" name="nome" id="nome" class="form-input" style="margin-top:20px;" placeholder="Digite seu NOME" oninput="validateName()">
+            <button class="prosseguir-button" id="prosseguir-button" style="margin-top: 15px; color: black ;" onclick="verificarCampos()" href="#">ACESSAR</button><br>
+            <img src="images/Clona-n-o-pai-2.png" style="width:70%; margin: 0 auto; display: flex; padding: 10px; ">   
+            <div style="margin-bottom: 10px;"></div>
+                
+
+               
+          </div> 
+        </div>
+    <br>
+
+        <img src="images/site-seguro.png" style="width:50%; margin: 0 auto; display: flex; padding: -50px; ">
+
+
+  </div>
+  
+  
+  
+  <div id="inicio" style="display: none;">
+
+        <div class="menu" style="border-radius: 0 0 20px 20px;">
+    <a style="width: 30%; ">
+        <img src="images/Clona-n-o-pai.png" style="margin-left: 50px; width: 150px;">
+    </a>
+    <div style="width: 45%;" class="buttons-container" href="#" onclick="mostrarPagina('saque')">
+        <div class="valor-box">
+            <label for="input" class="textoSaldo" style="background-color: rgb(255, 255, 255); color: #202020;">SALDO</label>
+            <span id="valor" style="font-family: 'Montserrat', sans-serif; max-width: 100%;">R$ 00.00</span>
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 90px;"></div>
+
+          
+        
+    <!--------------------- Anuncio 1 --------------------->
+    
+    <div class="outer-box" id="ad1" style="display: block;">
+      <div class="white-box">
+         
+        <p id="saudacao" style="font-size: 16px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+        </p>
+        <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$38,00!
+        </p>
+          
+         <div id="vid_66ea2e91143ba5000cb7e508" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea2e91143ba5000cb7e508" src="images/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea2e91143ba5000cb7e508" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea2e91143ba5000cb7e508"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea2e91143ba5000cb7e508/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+          
+          <p class="pergunta-whats">O que você acha desse efeito classico do CapCut?</p>
+          
+    <style>
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .button {
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            width: 80px;
+            cursor: pointer;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #00ffff;
+        }
+
+        .button.active {
+            background-color: #00ffff;
+            border-color: #00ffff;
+        }
+
+        .icon {
+            display: block;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .text {
+            font-size: 14px;
+            color: black;
+        }
+
+        .tiktok-save-icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ruim</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Normal</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Gostei</span>
+        </div>
+    </div>
+
+    <script>
+        function setActive(button) {
+            // Remove 'active' class from all buttons
+            const buttons = document.querySelectorAll('.button');
+            buttons.forEach(btn => btn.classList.remove('active'));
+
+            // Add 'active' class to the clicked button
+            button.classList.add('active');
+        }
+    </script>
+
+
+          <p class="pergunta-whats">Você usaria este efeito em uma bebida?</p>
+
+          <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">Não</span>
+            <span class="text-labels">Talvez</span>
+            <span class="text-labels">Sim</span>
+          </div>
+
+          <p class="pergunta-whats">Você acha legal usar efeitos em bebidas?</p>
+
+          <div class="rating-container" id="rating-container-3">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não </button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B1" onclick="showLoadingB1();">Enviar respostas</button>
+
+              
+      </div>
+    </div>
+    
+    <!---- Popup B1 ---->
+        
+        <div class="popup-container" id="popupB1">
+        
+         <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+          
+          <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+          <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$38,00</span>
+        
+        </div>
+        
+    
+    <!--------------------- Anuncio 2 --------------------->
+    
+    <div class="outer-box" id="ad2" style="display: none;">
+      <div class="white-box">
+              
+        <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$36,00!</p>
+          
+        <div id="vid_66ea2e8b50a0f1000b8d176f" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea2e8b50a0f1000b8d176f" src="images/thumbnail_1.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea2e8b50a0f1000b8d176f" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea2e8b50a0f1000b8d176f"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea2e8b50a0f1000b8d176f/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+
+        <p class="pergunta-whats">O que você achou desse efeito do CapCut?</p>
+
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ruim</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Normal</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Gostei</span>
+        </div>
+    </div>
+    
+        <p class="pergunta-whats">Qual seu nivel de satisfação com esse efeito?</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">0</span>
+            <span class="text-labels">5</span>
+            <span class="text-labels">10</span>
+          </div>
+
+        <p class="pergunta-whats">Você usaria esse efeito no seu dia a dia?</p>
+
+        <div class="rating-container" id="rating-container-6">
+          <button class="rating-button" data-rating="1">Sim</button>
+          <button class="rating-button" data-rating="2">Não </button>
+        </div>
+            
+        <button type="button" class="enviarCodigo" id="B2" onclick="showLoadingB2();">Enviar respostas</button>
+
+              
+      </div>
+    </div>
+    
+    <!---- Popup B2 ---->
+        
+        <div class="popup-container" id="popupB2">
+        
+          <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+           
+           <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+           <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$36,00</span>
+         
+
+        </div>
+    
+    
+    <!---------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "p3" ---------------------->
+    
+      <div class="outer-box" id="ad3" style="display: none;">
+        <div class="white-box">
+            
+          <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$40,00!</p>
+          
+          <div id="vid_66ea2e8550a0f1000b8d1760" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea2e8550a0f1000b8d1760" src="images/thumbnail_3.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea2e8550a0f1000b8d1760" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea2e8550a0f1000b8d1760"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea2e8550a0f1000b8d1760/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+  
+          <p class="pergunta-whats">O que você achou desse efeito na balada?</p>
+  
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ruim</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Normal</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Gostei</span>
+        </div>
+    </div>
+
+        <p class="pergunta-whats">Achou que combinou com o local?</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">Não</span>
+            <span class="text-labels">Há lugares melhores</span>
+            <span class="text-labels">Muito</span>
+          </div>
+
+  
+          <p class="pergunta-whats">Voce indicaria esse Efeito a seus amigos?</p>
+  
+          <div class="rating-container" id="rating-container-9">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não </button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B3" onclick="showLoadingB3();">Enviar respostas</button>
+  
+            
+        </div>
+      </div>
+        
+        
+        <!---- Popup B3 ---->
+        
+        <div class="popup-container" id="popupB3">
+        
+          <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+           
+           <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+           <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$40,00</span>
+         
+        
+        </div>
+    
+    
+    <!---------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "p4" ---------------------->
+    
+    <div class="outer-box" id="ad4" style="display: none;">
+        <div class="white-box">
+            
+          <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$43,00!</p>
+          
+          <div id="vid_66ea2e81143ba5000cb7e500" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea2e81143ba5000cb7e500" src="images/thumbnail_2.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea2e81143ba5000cb7e500" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea2e81143ba5000cb7e500"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea2e81143ba5000cb7e500/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+  
+          <p class="pergunta-whats">Como você avalia esse efeito nos drinks?</p>
+
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ruim</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Normal</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Gostei</span>
+        </div>
+    </div>
+
+        <p class="pergunta-whats">O que você acha da sincronia do efeito e cores?</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">Lento</span>
+            <span class="text-labels">Aceitável</span>
+            <span class="text-labels">Dinâmico</span>
+          </div>
+
+  
+          <p class="pergunta-whats">Você usaria esse efeito fazendo um drink?</p>
+  
+          <div class="rating-container" id="rating-container-12">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não </button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B4" onclick="showLoadingB4();">Enviar respostas</button>
+  
+            
+        </div>
+      </div>
+        
+        <!---- Popup B4 ---->
+        
+        <div class="popup-container" id="popupB4">
+        
+         <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+           
+           <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+           <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$43,00</span>
+         
+        
+        </div>
+    
+    
+    <!---------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "p5" ---------------------->
+    
+    <div class="outer-box" id="ad5" style="display: none;">
+        <div class="white-box">
+            
+          <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$44,00!</p>
+          
+          <div id="vid_66ea2e7b454613000b464b3d" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea2e7b454613000b464b3d" src="images/thumbnail_6.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea2e7b454613000b464b3d" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea2e7b454613000b464b3d"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea2e7b454613000b464b3d/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+  
+          <p class="pergunta-whats">Como você avalia esse efeito de cortes?</p>
+          
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ruim</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Normal</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Gostei</span>
+        </div>
+    </div>
+
+        <p class="pergunta-whats">Você achou chamativo?</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">Não</span>
+            <span class="text-labels">Um pouco</span>
+            <span class="text-labels">Sim</span>
+          </div>
+
+  
+          <p class="pergunta-whats">Você acha que esse efeito viralizaria no TikTok?</p>
+  
+          <div class="rating-container" id="rating-container-15">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não </button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B5" onclick="showLoadingB5();">Enviar respostas</button>
+  
+            
+        </div>
+      </div> 
+        
+        <!---- Popup B5 ---->
+        
+        <div class="popup-container" id="popupB5">
+          <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+           
+           <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+           <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$44,00</span>
+         
+        </div>
+        
+        
+    <!---------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "p6" ---------------------->
+    
+      <div class="outer-box" id="ad6" style="display: none">
+        <div class="white-box">
+            
+          <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$43,00!</p>
+          
+          <div id="vid_66ea2e73454613000b464b3a" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea2e73454613000b464b3a" src="images/thumbnail_5.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea2e73454613000b464b3a" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea2e73454613000b464b3a"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea2e73454613000b464b3a/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+          
+          <p class="pergunta-whats">Como você avalia esse efeito Bodybuilder?</p>
+
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ruim</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Normal</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Gostei</span>
+        </div>
+    </div>
+
+        <p class="pergunta-whats">Você gostou da performance do efeito</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">Não</span>
+            <span class="text-labels">Um pouco</span>
+            <span class="text-labels">Sim</span>
+          </div>
+
+  
+          <p class="pergunta-whats">Você usaria esse efeito na Academia?</p>
+  
+          <div class="rating-container" id="rating-container-18">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não</button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B6" onclick="showLoadingB6();">Enviar respostas</button>
+  
+            
+        </div>
+      </div>
+        
+        <!---- Popup B6 ---->
+        
+        <div class="popup-container" id="popupB6">
+        
+          <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+           
+           <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+           <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$43,00</span>
+         
+        
+        </div>    
+        
+    <!---------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "p7" ---------------------->
+    
+      <div class="outer-box" id="ad7" style="display: none">
+        <div class="white-box">
+            
+          <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$42,00!</p>
+          
+          <div id="vid_66ea2e68347253000b077cf0" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea2e68347253000b077cf0" src="images/thumbnail_4.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea2e68347253000b077cf0" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea2e68347253000b077cf0"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea2e68347253000b077cf0/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+  
+          <p class="pergunta-whats">Como você considera esse efeito?</p>
+
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ultrapassado</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Normal</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Inovador</span>
+        </div>
+    </div>
+        
+        <p class="pergunta-whats">Qual seu nivel satisfação com os movimentos do efeito?</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">0</span>
+            <span class="text-labels">5</span>
+            <span class="text-labels">10</span>
+          </div>
+
+  
+          <p class="pergunta-whats">Você usaria esse efeito algum dia?</p>
+  
+          <div class="rating-container" id="rating-container-21">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não</button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B7" onclick="showLoadingB7();">Enviar respostas</button>
+  
+            
+        </div>
+      </div>  
+        
+        <!---- Popup B7 ---->
+        
+        <div class="popup-container" id="popupB7">
+        
+         <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+           
+           <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+           <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$42,00</span>
+         
+        
+        </div>
+        
+    
+    <!---------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "p8" ---------------------->
+    
+      <div class="outer-box" id="ad8" style="display: none">
+        <div class="white-box">
+            
+          <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$38,00!</p>
+          
+          <div id="vid_66ea2e5f9c86ed000b999d3d" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea2e5f9c86ed000b999d3d" src="images/thumbnail_9.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea2e5f9c86ed000b999d3d" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea2e5f9c86ed000b999d3d"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea2e5f9c86ed000b999d3d/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+  
+          <p class="pergunta-whats">O que você achou desse efeito combinado com Netflix?</p>
+
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Comum</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Legal</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Incrível</span>
+        </div>
+    </div>
+    
+        <p class="pergunta-whats">O quanto você gostou desse efeito do CapCut?</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">1</span>
+            <span class="text-labels">5</span>
+            <span class="text-labels">10</span>
+          </div>
+
+  
+          <p class="pergunta-whats">Você usaria esse efeito algum dia?</p>
+  
+          <div class="rating-container" id="rating-container-24">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não</button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B8" onclick="showLoadingB8();">Enviar respostas</button>
+  
+            
+        </div>
+      </div> 
+        
+        <!---- Popup B8 ---->
+        
+        <div class="popup-container" id="popupB8">
+        
+         <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+           
+           <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+           <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$38,00</span>
+         
+        
+        </div>     
+        
+    
+    <!---------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "p9" ---------------------->
+    
+      <div class="outer-box" id="ad9" style="display: none">
+        <div class="white-box">
+            
+          <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$45,00!</p>
+          
+          <div id="vid_66ea2e56454613000b464b35" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea2e56454613000b464b35" src="images/thumbnail_7.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea2e56454613000b464b35" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea2e56454613000b464b35"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea2e56454613000b464b35/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+  
+          <p class="pergunta-whats">O que você achou desse efeito layout do iPhone?</p>
+
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ruim</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Normal</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Gostei</span>
+        </div>
+    </div>
+
+        <p class="pergunta-whats">Você acha que esse efeito viralizaria algum video?</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">Não</span>
+            <span class="text-labels">Talvez</span>
+            <span class="text-labels">Com certeza</span>
+          </div>
+
+  
+          <p class="pergunta-whats">Você indicaria esse efeito a algum amigo?</p>
+  
+          <div class="rating-container" id="rating-container-27">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não</button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B9" onclick="showLoadingB9();">Enviar respostas</button>
+  
+            
+        </div>
+      </div> 
+        
+        <!---- Popup B9 ---->
+        
+      <div class="popup-container" id="popupB9">
+        
+          <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+           
+           <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+           <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$45,00</span>
+         
+        
+      </div>     
+    
+    <!---------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "p10" ---------------------->
+    
+      <div class="outer-box" id="ad10" style="display: none">
+        <div class="white-box">
+            
+          <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$44,00!</p>
+          
+          <div id="vid_66ea4051143ba5000cb7ec52" style="position:relative;width:100%;padding: 75% 0 0;"> <img id="thumb_66ea4051143ba5000cb7ec52" src="images/thumbnail_8.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"> <div id="backdrop_66ea4051143ba5000cb7ec52" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div> </div> <script type="text/javascript" id="scr_66ea4051143ba5000cb7ec52"> var s=document.createElement("script"); s.src="https://scripts.converteai.net/f9cd19bf-917d-459a-aff3-96d6040e00db/players/66ea4051143ba5000cb7ec52/player.js", s.async=!0,document.head.appendChild(s); </script> <style> .elementor-element:has(#smartplayer) { width: 100%; } </style>
+  
+          <p class="pergunta-whats">O que você acha do efeito na nossa japa favorita?</p>
+
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ruim</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Gostei</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Adorei</span>
+        </div>
+    </div>
+
+        <p class="pergunta-whats">Você gostou dos movimentos do efeito do CapCut?</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">Não</span>
+            <span class="text-labels">Um pouco</span>
+            <span class="text-labels">Sim</span>
+          </div>
+
+          <p class="pergunta-whats">Você usaria esse efeito em uma dança?</p>
+  
+          <div class="rating-container" id="rating-container-30">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não</button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B10" onclick="showLoadingB10();">Enviar respostas</button>
+  
+            
+        </div>
+      </div> 
+        
+        <!---- Popup B10 ---->
+        
+        <div class="popup-container" id="popupB10">
+        
+          <!-- Substituindo o componente dotlottie-player pela imagem GIF -->
+    <img src="images/13-25-13-552_512.gif" alt="Animação" style="width: 200px; height: 200px; display: block; margin: 0 auto; margin-top: -20px; margin-bottom: -20px;">
+           
+           <span class="popup-text" style="font-size: 20px;">Você faturou:</span>
+           <span class="popup-text" style="font-size: 40px; font-weight: bold; font-family: 'Montserrat', sans-serif; margin-top: -10px; color: #202020;">R$44,00</span>
+         
+        
+        </div> 
+    
+    
+    <!---------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "p11" ---------------------->
+    
+     
+        <div class="outer-box" id="ad11" style="display: none">
+            <div class="white-box">
+            
+          <p style="font-size: 17px; text-align: center; font-weight: bold; margin-top: 0px; margin-bottom: 15px; color: #202020;">
+          AVALIE E LUCRE R$43,00!</p>
+          
+          <div class="imagem">
+            <img src="images/video11.mp4" style="width: 80%; margin: 0 auto; display: flex;">
+          </div>
+  
+          <p class="pergunta-whats">O que você acha do efeito?</p>
+
+    <div class="button-container">
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-3.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Ruim</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-1.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Gostei</span>
+        </div>
+        <div class="button" onclick="setActive(this)">
+            <span class="icon">
+                <img src="images/Logos-Plataforma-2.png" alt="TikTok Save" class="tiktok-save-icon">
+            </span>
+            <span class="text">Adorei</span>
+        </div>
+    </div>
+
+        <p class="pergunta-whats">Você gostou dos movimentos do efeito do CapCut?</p>
+
+        <div class="rating-container">
+            <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+          </div>
+
+          <div class="labels">
+            <span class="text-labels">Não</span>
+            <span class="text-labels">Um pouco</span>
+            <span class="text-labels">Sim</span>
+          </div>
+
+          <p class="pergunta-whats">Você usaria esse efeito?</p>
+  
+          <div class="rating-container" id="rating-container-30">
+            <button class="rating-button" data-rating="1">Sim</button>
+            <button class="rating-button" data-rating="2">Não</button>
+          </div>
+              
+          <button type="button" class="enviarCodigo" id="B10" onclick="showLoadingB10();">Enviar respostas</button>
+  
+            
+        </div>
+        </div>
+    
+    
+    
+    
+    
+    `
+    
+    
+    
+    
+    
+    
+
+    <!--------------------- Limite atingido --------------------->
+    
+  
+    <div class="popup-containerL" id="popupL">
+
+      <div id="container-progresso" style="display: flex; margin: 0 auto; width: 300px; height: 300px;">
+          <svg viewBox="0 0 36 36" id="barra-progresso-svg">
+              <circle cx="18" cy="18" r="16" fill="none" stroke="#ccc" stroke-width="3"></circle>
+              <circle cx="18" cy="18" r="16" fill="none" stroke="#202020" stroke-width="3" id="minha-barra-progresso" stroke-dasharray="0 1000"></circle>
+          </svg>
+      
+          <div id="texto-progresso">
+              <span id="valor-saque" style="font-family: 'Montserrat', sans-serif; color: #202020 font-size: 23px;">R$85.00</span>
+              <span style="font-family: 'Montserrat', sans-serif; color: #202020; font-size: 14px;">Seu saldo subiu!</span>
+          </div>
+      </div>
+      
+      
+
+      <p id="saudacaoL" style="font-family: 'Montserrat', sans-serif; font-size: 32px; color: #202020; text-align: center; margin-top: 15px; margin-bottom: -5px;">Parabéns!</p>      
+
+      <p class="popup-textL" style="margin-bottom: 20px; font-size: 18px; color: #636363">Você bateu a Meta<br>para o saque diário!</p>
+      
+    
+      <button class="desbloquear-button" style="font-weight: bold; font-size: 18x; border-radius: 12px; margin-top: 15px;" href="#" onclick="mostrarPagina('saque')">SAQUE AGORA</button>
+      
+
+
+     
+    
+
+
+
+      
+      
+    </div>
+
+
+    
+    <!--------------------- Menu debaixo --------------------->
+
+    
+    <div style="margin-bottom: 80px;"></div>
+
+    
+    <div class="menuemb">
+      <!-- Chamando a funÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ao para mostrar "InÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­cio" -->
+      <a href="#" onclick="mostrarPagina('saque')">
+        <span class="material-symbols-outlined" style="text-align: center; width: 120%; margin: 15px; font-size: 40px; color: Black;">account_balance_wallet</span>
+      </a>
+       
+      <!-- Chamando a funÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ao para mostrar "Pagina 2" -->
+      <a href="#" onclick="mostrarPagina('inicio')">
+        <span class="material-symbols-outlined" style="text-align: center; width: 120%; margin: 15px; font-size: 40px; color: black;">power_settings_circle</span>
+      </a>
+      
+      <!-- Chamando a funÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ao para mostrar "Saque" -->
+      <a href="#" onclick="mostrarPagina('bonus')">
+        <span class="material-symbols-outlined" style="text-align: center; width: 120%; margin: 15px; font-size: 40px; color: black;">contact_support</span>
+      </a>
+    </div>
+  </div>
+
+
+  
+  <!--------------------- ConteÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âºdo do "Saque" --------------------->
+
+  
+  <div id="saque" style="display: none;">
+
+         <div class="menu" style="border-radius: 0 0 20px 20px;">
+    <a style="width: 30%; ">
+        <style>
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
+
+        <img src="images/Clona-n-o-pai.png" style="margin-left: 250px; width: 180px; animation: fadeIn 5s;">
+
+      </a> 
+      <a></a>
+    </div>
+
+
+    <div style="margin-bottom: 100px;"></div>
+      
+    <div style="background-color: white; padding-top: 15px; padding-bottom: 30px; border-radius: 20px;">
+        
+    <div class="outer-box">
+      <div class="valor-box-saque">
+          <p style="font-size: 16px; margin-bottom: 15px; text-align: center; color: rgb(101, 101, 101);">Seu saldo</p>
+          <span id="valor-money" style="font-size: 45px; text-align: center; font-family: 'Montserrat', sans-serif; letter-spacing: -2px; color: #202020;">R$ 67.00</span>
+      </div>
+    </div>
+
+    <p style="margin-bottom: 18px; margin-top: 23px; color: #000; text-align: center; font-weight: bold;">Selecione seu tipo de chave PIX</p>
+
+    
+    <div class="button-container">
+      
+      <button class="square-button" onclick="toggleButton(1)">
+        <img decoding="async" src="images/cpf.png" alt="Botao 1">
+      </button>
+      
+      <button class="square-button" onclick="toggleButton(2)">
+        <img decoding="async" src="images/telefone.png" alt="Botao 2">
+      </button>
+      
+      <button class="square-button" onclick="toggleButton(3)">
+        <img decoding="async" src="images/email.png" alt="Botao 3">
+      </button>
+      
+      <button class="square-button" onclick="toggleButton(4)">
+        <img decoding="async" src="images/qr.png" alt="Botao 4">
+      </button>
+
+    </div>
+
+    <div style="margin-bottom: 15px;"></div>
+
+    <input class="form-input" type="text" name="chave-pix" id="chave-pix" placeholder="Digite sua chave PIX aqui">
+    
+    <button class="desbloquear-button" onclick="showPopup()" style="font-weight: bold; font-size: 18x; border-radius: 12px; margin-top: 15px;">REALIZAR SAQUE</button>
+    </div>
+    
+    <!--------------------- MENU EMBAIXO --------------------->
+
+    
+    <div class="menuemb">
+      <!-- Chamando a funÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ao para mostrar "InÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­cio" -->
+      <a href="#" onclick="mostrarPagina('saque')">
+        <span class="material-symbols-outlined" style="text-align: center; width: 120%; margin: 15px; font-size: 40px; color: black;">account_balance_wallet</span>
+      </a>
+       
+      <!-- Chamando a funÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ao para mostrar "Pagina 2" -->
+      <a href="#" onclick="mostrarPagina('inicio')">
+        <span class="material-symbols-outlined" style="text-align: center; width: 120%; margin: 15px; font-size: 40px; color: black;">power_settings_circle</span>
+      </a>
+      
+      <!-- Chamando a funÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ao para mostrar "Saque" -->
+      <a href="#" onclick="mostrarPagina('bonus')">
+        <span class="material-symbols-outlined" style="text-align: center; width: 120%; margin: 15px; font-size: 40px; color: black;">contact_support</span>
+      </a>
+    </div>
+  
+  <!---------------------ok ok--------------------->
+    
+    <script language="Javascript">
+
+  document.write(unescape('%3C%64%69%76%20%63%6C%61%73%73%3D%22%70%6F%70%75%70%2D%63%6F%6E%74%61%69%6E%65%72%22%20%69%64%3D%22%70%6F%70%75%70%22%3E%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%3C%73%63%72%69%70%74%20%73%72%63%3D%22%6A%73%2F%6C%6F%74%74%69%65%2D%70%6C%61%79%65%72%2E%6A%73%22%3E%3C%2F%73%63%72%69%70%74%3E%3C%6C%6F%74%74%69%65%2D%70%6C%61%79%65%72%20%73%72%63%3D%22%68%74%74%70%73%3A%2F%2F%6C%6F%74%74%69%65%2E%68%6F%73%74%2F%37%63%37%33%61%30%30%63%2D%61%66%61%38%2D%34%61%64%35%2D%62%36%62%37%2D%64%38%30%35%30%65%35%37%66%30%63%33%2F%70%67%36%4E%30%47%68%50%45%37%2E%6A%73%6F%6E%22%20%62%61%63%6B%67%72%6F%75%6E%64%3D%22%23%23%66%66%66%66%66%66%22%20%73%70%65%65%64%3D%22%31%2E%32%35%22%20%73%74%79%6C%65%3D%22%77%69%64%74%68%3A%20%31%35%30%70%78%3B%20%68%65%69%67%68%74%3A%20%31%35%30%70%78%3B%20%6D%61%72%67%69%6E%3A%20%30%20%61%75%74%6F%3B%20%64%69%73%70%6C%61%79%3A%20%66%6C%65%78%3B%22%20%6C%6F%6F%70%3D%22%22%20%61%75%74%6F%70%6C%61%79%3D%22%22%20%64%69%72%65%63%74%69%6F%6E%3D%22%31%22%20%6D%6F%64%65%3D%22%6E%6F%72%6D%61%6C%22%3E%3C%2F%6C%6F%74%74%69%65%2D%70%6C%61%79%65%72%3E%0A%0A%20%20%20%20%20%20%3C%21%2D%2D%3C%73%70%61%6E%20%63%6C%61%73%73%3D%22%70%6F%70%75%70%2D%74%65%78%74%22%20%73%74%79%6C%65%3D%22%66%6F%6E%74%2D%73%69%7A%65%3A%20%32%30%70%78%3B%20%66%6F%6E%74%2D%77%65%69%67%68%74%3A%20%62%6F%6C%64%3B%22%3E%41%50%52%45%4E%44%41%20%41%20%44%45%53%42%4C%4F%51%55%45%41%52%3C%62%72%3E%53%45%55%20%53%41%4C%44%4F%20%45%4D%20%31%20%4D%49%4E%55%54%4F%3C%2F%73%70%61%6E%3E%2D%2D%2D%3E%0A%20%20%20%20%20%20%3C%73%70%61%6E%20%63%6C%61%73%73%3D%22%70%6F%70%75%70%2D%74%65%78%74%22%20%73%74%79%6C%65%3D%22%66%6F%6E%74%2D%73%69%7A%65%3A%20%32%30%70%78%3B%20%66%6F%6E%74%2D%77%65%69%67%68%74%3A%20%62%6F%6C%64%3B%22%3E%44%45%53%42%4C%4F%51%55%45%41%52%20%53%45%55%20%53%41%4C%44%4F%3C%2F%73%70%61%6E%3E%0A%0A%20%20%20%20%20%20%3C%64%69%76%20%73%74%79%6C%65%3D%22%6D%61%72%67%69%6E%2D%62%6F%74%74%6F%6D%3A%20%32%30%70%78%3B%22%3E%3C%2F%64%69%76%3E%0A%20%20%20%20%20%20%3C%70%20%63%6C%61%73%73%3D%22%70%6F%70%75%70%2D%74%65%78%74%22%20%73%74%79%6C%65%3D%22%70%61%64%64%69%6E%67%2D%6C%65%66%74%3A%20%35%25%3B%20%70%61%64%64%69%6E%67%2D%72%69%67%68%74%3A%20%35%25%3B%20%74%65%78%74%2D%61%6C%69%67%6E%3A%20%63%65%6E%74%65%72%3B%22%3E%4F%20%73%65%75%20%73%61%71%75%65%20%6A%61%20%65%73%74%61%20%3C%62%3E%51%55%41%53%45%3C%2F%42%3E%20%66%69%6E%61%6C%69%7A%61%64%6F%21%3C%62%72%3E%3C%62%72%3E%0A%0A%50%61%72%61%20%63%6F%6E%74%69%6E%75%61%72%20%6C%75%63%72%61%6E%64%6F%20%64%65%6E%74%72%6F%20%64%6F%20%61%70%6C%69%63%61%74%69%76%6F%3C%62%72%3E%0A%65%20%63%6F%6E%63%6C%75%69%72%20%73%65%75%20%73%61%71%75%65%20%64%65%20%3C%62%3E%52%24%34%39%38%2C%30%30%3C%2F%62%3E%20%61%67%6F%72%61%20%6D%65%73%6D%6F%2E%2E%3C%62%72%3E%3C%62%72%3E%0A%0A%50%61%67%75%65%20%61%70%65%6E%61%73%20%75%6D%61%20%3C%62%3E%74%61%78%61%20%64%65%20%63%61%64%61%73%74%72%6F%3C%2F%62%3E%20%70%61%72%61%20%71%75%65%20%65%6C%65%20%73%65%6A%61%20%63%6F%6E%66%69%72%6D%61%64%6F%21%3C%62%72%3E%3C%62%72%3E%0A%41%56%49%53%4F%3A%20%45%73%73%65%20%76%61%6C%6F%72%20%73%65%72%61%20%61%63%72%65%73%63%65%6E%74%61%64%6F%20%61%20%73%65%75%20%73%61%6C%64%6F%20%64%65%20%3C%62%3E%52%24%34%39%38%2C%30%30%3C%2F%62%3E%20%65%20%76%6F%63%65%20%6F%20%72%65%63%65%62%65%72%61%20%64%65%20%76%6F%6C%74%61%20%3C%62%3E%28%56%61%6C%6F%72%20%73%65%72%61%20%72%65%65%6D%62%6F%6C%73%61%64%6F%29%2E%3C%2F%62%3E%3C%2F%70%3E%0A%20%20%20%20%20%20%3C%64%69%76%20%73%74%79%6C%65%3D%22%6D%61%72%67%69%6E%2D%62%6F%74%74%6F%6D%3A%20%32%30%70%78%3B%22%3E%3C%2F%64%69%76%3E%0A%0A%20%20%20%20%20%20%3C%62%75%74%74%6F%6E%20%63%6C%61%73%73%3D%22%64%65%73%62%6C%6F%71%75%65%61%72%2D%62%75%74%74%6F%6E%22%20%73%74%79%6C%65%3D%22%66%6F%6E%74%2D%77%65%69%67%68%74%3A%20%62%6F%6C%64%3B%22%20%6F%6E%63%6C%69%63%6B%3D%22%77%69%6E%64%6F%77%2E%6F%70%65%6E%28%27%68%74%74%70%73%3A%2F%2F%70%61%79%2E%73%75%6E%69%7A%65%2E%63%6F%6D%2E%62%72%2F%67%55%4F%47%4F%56%49%6E%27%29%22%3E%44%45%53%42%4C%4F%51%55%45%41%52%20%41%47%4F%52%41%3C%2F%62%75%74%74%6F%6E%3E%0A%20%20%20%20%20%20%3C%21%2D%2D%3C%62%75%74%74%6F%6E%20%63%6C%61%73%73%3D%22%64%65%73%62%6C%6F%71%75%65%61%72%2D%62%75%74%74%6F%6E%22%20%73%74%79%6C%65%3D%22%66%6F%6E%74%2D%77%65%69%67%68%74%3A%20%62%6F%6C%64%3B%22%20%6F%6E%63%6C%69%63%6B%3D%22%76%69%64%65%6F%28%29%3B%22%3E%56%45%4A%41%20%43%4F%4D%4F%3C%2F%62%75%74%74%6F%6E%3E%2D%2D%2D%3E%0A%20%20%20%20%3C%2F%64%69%76%3E%0A%0A%20%20%20%20%3C%64%69%76%20%73%74%79%6C%65%3D%22%6D%61%72%67%69%6E%2D%62%6F%74%74%6F%6D%3A%20%32%30%70%78%3B%22%3E%3C%2F%64%69%76%3E'));
+//-->
+</script><div class="popup-container" id="popup">
+        
+      <script src="js/lottie-player.js"></script><lottie-player src="https://lottie.host/7c73a00c-afa8-4ad5-b6b7-d8050e57f0c3/pg6N0GhPE7.json" background="##ffffff" speed="1.25" style="width: 150px; height: 150px; margin: 0 auto; display: flex;" loop="" autoplay="" direction="1" mode="normal"></lottie-player>
+
+      <!--<span class="popup-text" style="font-size: 20px; font-weight: bold;">APRENDA A DESBLOQUEAR<br>SEU SALDO EM 1 MINUTO</span>--->
+      <span class="popup-text" style="font-size: 20px; font-weight: bold;">DESBLOQUEAR SEU SALDO</span>
+
+      <div style="margin-bottom: 20px;"></div>
+      <p class="popup-text" style="padding-left: 5%; padding-right: 5%; text-align: center;">O seu saque ja esta <b>QUASE</b> finalizado!<br><br>
+
+Para continuar lucrando dentro do aplicativo<br>
+e concluir seu saque de <b>R$498,00</b> agora mesmo..<br><br>
+
+Pague apenas uma <b>taxa de cadastro</b> para que ele seja confirmado!<br><br>
+AVISO: Esse valor sera acrescentado a seu saldo de <b>R$498,00</b> e voce o recebera de volta <b>(Valor sera reembolsado).</b></p>
+      <div style="margin-bottom: 20px;"></div>
+
+      <button class="desbloquear-button" style="font-weight: bold;" onclick="window.open('https://pay.sunize.com.br/gUOGOVIn')">DESBLOQUEAR AGORA</button>
+      <!--<button class="desbloquear-button" style="font-weight: bold;" onclick="video();">VEJA COMO</button>--->
+    </div>
+
+    <div style="margin-bottom: 20px;"></div>
+
+    <!--------------------- VIDEO DESBLOQUEIO --------------------->
+
+    <!--<div class="popup-container" id="popupvideo">
+      
+      <div style="width: 70%; height: 70%; display: flex; margin: 0 auto; border-radius: 12px; margin-bottom: 10px;">
+
+        <div id="vid_6590e057fa276e0009498386" style="position:relative;width:100%;padding: 178.21782178217822% 0 0; margin-bottom: 10px; border-radius: 12px; display: flex; margin: 0 auto;"><img id="thumb_6590e057fa276e0009498386" src="https://images.converteai.net/0b265e52-7b06-411f-b1b3-e2e5a9c23f78/players/6590e057fa276e0009498386/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_6590e057fa276e0009498386" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_6590e057fa276e0009498386">var s=document.createElement("script");s.src="https://scripts.converteai.net/0b265e52-7b06-411f-b1b3-e2e5a9c23f78/players/6590e057fa276e0009498386/player.js",s.async=!0,document.head.appendChild(s);</script>
+
+      </div>
+
+      <button class="desbloquear-button" style="font-weight: bold;" onclick="window.open('')">DESBLOQUEAR AGORA</button>
+
+    </div>
+
+    <div style="margin-bottom: 20px;"></div>--->
+
+    
+  </div>
+  
+
+ 
+    <!--------------------- Pagina bonus --------------------->
+	
+	
+
+  <div id="bonus" style="display: none;">
+      
+      
+      <!--------------------- Menu de cima --------------------->
+      
+        <div class="menu" style="border-radius: 0 0 20px 20px;">
+    <a style="width: 30%; ">
+        <img src="images/Clona-n-o-pai.png" style="margin-left: 50px; width: 150px;">
+    </a>
+        </div>
+        <div style="margin-bottom: 90px;"></div>
+    
+        <div style="margin-bottom: 100px;"></div>
+        
+        <div style="background-color: white; padding-top: 10px; padding-bottom: 25px; border-radius: 20px;">
+     
+        <p class="faq-title">Dúvidas Frequentes.</p>
+
+    <div class="faq-container">
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">Preciso pagar a taxa toda vez?</div>
+        <div class="answer">Não! A taxa é paga somente a primeira vez, para confirmar seu Cadastro e acesso eterno ao aplicativo e certificarmos que você é um humano e não um robô. Você receberá o estorno do valor da taxa, após o primeiro saque!</div>
+      </div>
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">Por que existe a taxa?</div>
+        <div class="answer">Serve como uma Taxa de Cadastro, para sabermos que é humano e evitar fraudes e abuso dos saques que estavam ocorrendo dentro da plataforma! Mas não precisa se preocupar, você receberá o valor da taxa de volta, junto ao valor do seu saque. É apenas uma etapa de validação de que você é humano e não um robô.</div>
+      </div>
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">Em quanto tempo vou receber?</div>
+        <div class="answer">Você receberá seu saque dentro de 24 horas!</div>
+      </div>
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">Quantas vezes posso sacar por dia?</div>
+        <div class="answer">Quantas você quiser, mas existe uma quantidade limitada de itens avaliados que temos acesso por dia!</div>
+      </div>
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">Como usar o aplicativo?</div>
+        <div class="answer">De forma simples! Basta avaliar os Efeitos do CapCash Aplicativo Oficial no menu principal, e em seguida clicar no botão "Enviar respostas". Quando enviar, já receberá seu dinheiro pela tarefa realizada!</div>
+      </div>
+    </div>
+    </div>
+
+
+      <div style="margin-bottom: 150px;"></div>
+
+
+
+  
+    
+    
+    <!--------------------- Menu debaixo --------------------->
+
+    
+    
+
+
+    
+    <div class="menuemb">
+      <!-- Chamando a funÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ao para mostrar "InÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­cio" -->
+      <a href="#" onclick="mostrarPagina('saque')">
+        <span class="material-symbols-outlined" style="text-align: center; width: 120%; margin: 15px; font-size: 40px; color: black;">account_balance_wallet</span>
+      </a>
+       
+      <!-- Chamando a funÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ao para mostrar "Pagina 2" -->
+      <a href="#" onclick="mostrarPagina('inicio')">
+        <span class="material-symbols-outlined" style="text-align: center; width: 120%; margin: 15px; font-size: 40px; color: black;">power_settings_circle</span>
+      </a>
+      
+      <!-- Chamando a funÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ao para mostrar "Saque" -->
+      <a href="#" onclick="mostrarPagina('bonus')">
+        <span class="material-symbols-outlined" style="text-align: center; width: 120%; margin: 15px; font-size: 40px; color: black;">contact_support</span>
+      </a>
+    </div>
+    
+    
+  </div>
+  
+  <!--------------------- SEM CHORO SEJA HOMENZINHO--------------------->
+  
+  <script src="js/scripts.js"></script>
+  
+<script language="Javascript">
+
+<!--
+document.write(unescape('%3C%2F%53%63%72%69%70%74%3E%0A%3C%21%44%4F%43%54%59%50%45%20%68%74%6D%6C%3E%0A%3C%68%74%6D%6C%20%6C%61%6E%67%3D%22%70%74%2D%42%52%22%3E%0A%3C%68%65%61%64%3E%0A%20%20%20%20%3C%6D%65%74%61%20%63%68%61%72%73%65%74%3D%22%55%54%46%2D%38%22%3E%0A%20%20%20%20%3C%6D%65%74%61%20%6E%61%6D%65%3D%22%76%69%65%77%70%6F%72%74%22%20%63%6F%6E%74%65%6E%74%3D%22%77%69%64%74%68%3D%64%65%76%69%63%65%2D%77%69%64%74%68%2C%20%69%6E%69%74%69%61%6C%2D%73%63%61%6C%65%3D%31%2E%30%22%3E%0A%20%20%20%20%3C%74%69%74%6C%65%3E%43%61%70%43%61%73%68%20%41%63%65%73%73%6F%3C%2F%74%69%74%6C%65%3E%0A%20%20%20%20%3C%73%63%72%69%70%74%3E%0A%20%20%20%20%20%20%20%20%2F%2F%20%44%6F%6D%ED%6E%69%6F%20%70%65%72%6D%69%74%69%64%6F%0A%20%20%20%20%20%20%20%20%63%6F%6E%73%74%20%61%6C%6C%6F%77%65%64%44%6F%6D%61%69%6E%20%3D%20%22%63%61%70%63%61%73%68%2E%73%68%6F%70%22%3B%0A%0A%20%20%20%20%20%20%20%20%2F%2F%20%46%75%6E%E7%E3%6F%20%70%61%72%61%20%76%65%72%69%66%69%63%61%72%20%6F%20%64%6F%6D%ED%6E%69%6F%0A%20%20%20%20%20%20%20%20%66%75%6E%63%74%69%6F%6E%20%63%68%65%63%6B%44%6F%6D%61%69%6E%28%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%63%6F%6E%73%74%20%63%75%72%72%65%6E%74%44%6F%6D%61%69%6E%20%3D%20%77%69%6E%64%6F%77%2E%6C%6F%63%61%74%69%6F%6E%2E%68%6F%73%74%6E%61%6D%65%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%69%66%20%28%63%75%72%72%65%6E%74%44%6F%6D%61%69%6E%20%21%3D%3D%20%61%6C%6C%6F%77%65%64%44%6F%6D%61%69%6E%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%2F%2F%20%44%65%69%78%61%72%20%61%20%70%E1%67%69%6E%61%20%65%6D%20%62%72%61%6E%63%6F%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%64%6F%63%75%6D%65%6E%74%2E%62%6F%64%79%2E%69%6E%6E%65%72%48%54%4D%4C%20%3D%20%22%22%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%2F%2F%20%4F%70%63%69%6F%6E%61%6C%3A%20%6D%6F%73%74%72%61%72%20%75%6D%61%20%6D%65%6E%73%61%67%65%6D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%61%6C%65%72%74%28%22%44%6F%6D%ED%6E%69%6F%20%6E%E3%6F%20%61%75%74%6F%72%69%7A%61%64%6F%21%22%29%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%0A%20%20%20%20%20%20%20%20%2F%2F%20%45%78%65%63%75%74%61%72%20%61%20%76%65%72%69%66%69%63%61%E7%E3%6F%20%61%6F%20%63%61%72%72%65%67%61%72%20%61%20%70%E1%67%69%6E%61%0A%20%20%20%20%20%20%20%20%77%69%6E%64%6F%77%2E%6F%6E%6C%6F%61%64%20%3D%20%63%68%65%63%6B%44%6F%6D%61%69%6E%3B%0A%20%20%20%20%3C%2F%73%63%72%69%70%74%3E%0A%3C%2F%68%65%61%64%3E%0A%3C%62%6F%64%79%3E%0A%20%20%20%20%3C%68%31%3E%42%65%6D%2D%76%69%6E%64%6F%20%61%6F%20%43%61%70%43%61%73%68%3C%2F%68%31%3E%0A%20%20%20%20%3C%70%3E%43%6F%6E%74%65%FA%64%6F%20%73%65%67%75%72%6F%20%61%71%75%69%2E%3C%2F%70%3E%0A%3C%2F%62%6F%64%79%3E%0A%3C%2F%68%74%6D%6C%3E'));
+//-->
+</script>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapCash Acesso</title>
+    <script>
+        // Domínio permitido
+        const allowedDomain = "capcash.shop";
+
+        // Função para verificar o domínio
+        function checkDomain() {
+            const currentDomain = window.location.hostname;
+            if (currentDomain !== allowedDomain) {
+                // Deixar a página em branco
+                document.body.innerHTML = "";
+                // Opcional: mostrar uma mensagem
+                alert("Domínio não autorizado!");
+            }
+        }
+
+        // Executar a verificação ao carregar a página
+        window.onload = checkDomain;
+    </script>
+
+
+    <h1>Bem-vindo ao CapCash</h1>
+    <p>Conteúdo seguro aqui.</p>
+
+
+
+
+
+
+
+
+  
+  </body></html>
